@@ -11,17 +11,17 @@
 		"AngularJS",
 		"Twitter Bootstrap"
 	],
-	"homepage": "https://github.com/ninnemana/generator-angular-beego",
-	"bugs": "https://github.com/ninnemana/generator-angular-beego/issues",
+	"homepage": "https://github.com/byronmansfield/yo-ng-beego",
+	"bugs": "https://github.com/byronmansfield/yo-ng-beego/issues",
 	"author": {
-		"name": "Alex Ninneman",
+		"name": "Byron Mansfield",
 		"email": "",
-		"url": "https://github.com/ninnemana"
+		"url": "https://github.com/byronmansfield"
 	},
 	"main": "app/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ninnemana/generator-angular-beego.git"
+		"url": "git://github.com/byronmansfield/yo-ng-beego.git"
 	},
 	"scripts": {
 		"test": "mocha"
