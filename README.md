@@ -10,33 +10,23 @@ You will need the following installed and set up
 * [node.js](http://nodejs.org)
 * [Go](http://golang.org/)
 
-Then with node you can install Yeoman:
+Then with node you can install Yeoman: `npm install -g yo`
 
-    `npm install -g yo`
-
-Then you can install the yo-ng-beego generator:
-
-    `npm install -g generator-angular-beego`
+Then you can install the yo-ng-beego generator: `npm install -g generator-angular-beego`
 
 ## Creating a Beego service
 
-In a new directory, generate the service:
+In a new directory, generate the service: `yo angular-beego`
 
-    `yo angular-beego`
+*note: right now just use the original version, I will update once I have a version I am happy with and turn it into a generator*
 
-    note: right now just use the original version, I will update once I have a version I am happy with and turn it into a generator
+Get the dependencies: `go get`
 
-Get the dependencies:
+In order to run the service you'll need two terminal instances:
 
-    `go get`
+Terminal 1: `grunt server`
 
-Run the service:
-
-  Terminal 1
-    `grunt server`
-
-  Terminal 2
-    `bee run`
+Terminal 2: `bee run`
 
 Your service will run at [http://localhost:8080](http://localhost:8080).
 
